@@ -1,0 +1,187 @@
+body{
+    height: 1000px;
+        margin: 0;
+    }
+    .header{
+        border: 1px solid#6601EB;
+        background-color:#6601EB ;
+        height: 105px;
+    }
+    .headP
+    {
+        font-size: 36px;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 67px;
+        margin-top: 30px;
+    }
+    .inbut{
+        display: flex;
+        justify-content: space-around;
+        margin-top:41px ;
+    }
+    input{
+        padding: 20px;
+        border-radius: 47px;
+    border: 1px solid#707070;
+    
+    }
+    button{
+    /* padding-left: 60px;padding-right: 60px; */
+        padding: 20px;
+        border-radius: 47px;
+    border: 1px solid#707070;
+    background-color:#6601EB ;
+    color: white;
+    }
+    @media only screen and (max-width: 1440px) {
+        #input2 {
+          width: 300px;
+        }
+      }
+      @media only screen and (max-width:768px) {
+        #input2 {
+          width: 200px;
+        }
+      }
+      @media only screen and (max-width: 425px) {
+        #input2, #input1 {
+          width: 50px;
+          padding: 12px;
+        }
+      }
+      @media only screen and (max-width: 375px) {
+        #input2, #input1 {
+          width: 50px;
+          padding: 8px;
+        }
+      }
+      @media only screen and (max-width: 320px) {
+        #input2, #input1 {
+          width: 50px;
+          padding: 4px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
+      @media only screen and (max-width: 425px) {
+        button {
+          padding: 12px;
+        }
+      }
+      @media only screen and (max-width: 375px) {
+       button {
+       padding: 8px;
+        }
+      }
+      @media only screen and (max-width: 320px) {
+      button{
+        font-size: 8px;
+        }
+      }
+      @media only screen and (max-width: 425px) {
+    .headP {
+          font-size: 25px;
+          margin-right: 50px;
+        }
+      }
+      @media only screen and (max-width: 320px) {
+        .headP {
+        font-size: 20px;
+        }
+      }
+      @media only screen and (max-width: 320px) {
+       #input1, #input2{
+        width:30px ;
+        }
+      }
+      .info{
+        display: flex; 
+        justify-content:flex-start;
+        border: 1px solid#707070;
+    margin-top: 57px;
+    height: 190px;  
+    margin-right: 47px;margin-left: 47px;
+    border-radius: 15px;
+    }
+      .info1{
+    margin-left: 52px;
+    margin-top: 10px;
+      }
+      .info1P{
+        font-size: 26px;
+        color: #696969;
+        /* margin-top: 0; */
+        padding: 0px;
+      }
+      .info2{
+        margin-left: 86px;
+        margin-top: 26px;
+    font-size: 26px;  
+    color: #696969;
+    }
+    @media only screen and (max-width: 1024px) {
+        .info1P, .info2{
+        font-size: 16px;
+         }
+         .info{
+            height: 120px;
+         }
+       }
+       @media only screen and (max-width: 768px) {
+        .info1P, .info2{
+        font-size: 13px;
+         }
+         .info{
+            height: 120px;
+         }
+       }
+      
+       @media only screen and (max-width: 425px) {
+        .info2{
+        font-size:9px;
+        margin-left: 14px;
+         }
+        .info1{
+            margin-left: 10px;
+        }
+         .info{
+            height: 120px;
+         }
+       }
+       @media only screen and (max-width: 320px) {
+        .info2{
+        font-size:8px;
+        margin-left: 14px;
+        margin-top: 10px;
+         }
+        .info1{
+            margin-left: 10px;
+        }
+        .info1P{
+            font-size: 10px;
+        }
+        .info{
+            height: 100px;
+        }
+       }
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    color:wheat ;
+    /* border: #6601eb; */
+    /* padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer; */
+  } 
+  .btn:hover{
+    border: 2px solid #0004ff;
+    background: #504dff;
+    transition: 0.3s;
+}
+#btn21 {
+    height: 2px;
+    width: 0%;
+}   
